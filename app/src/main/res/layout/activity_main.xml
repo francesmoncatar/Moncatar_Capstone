@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#84B2C5"
+    android:backgroundTint="#95C2DA"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seafood Delivery"
+        android:layout_marginTop="100dp"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="100dp"
+        android:paddingRight="100dp"
+        android:textAlignment="center"
+        android:layout_marginTop="170dp"
+        android:textSize="16dp"
+        android:text="Your favorite seafoods, delivered to your doorstep."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign-In to Browse and Order"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="300dp"
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/enter_email"
+        android:text="Enter your Email Address"
+        android:textAlignment="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textSize="16dp"
+        android:background="@color/white"
+        android:layout_marginTop="340dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/enter_password"
+        android:text="Enter your Password"
+        android:textAlignment="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textSize="16dp"
+        android:background="@color/white"
+        android:layout_marginTop="395dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signin_button"
+        android:text="Sign-In"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="450dp"
+        android:padding="@dimen/fab_margin"
+        android:backgroundTint="@color/black"/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="or Create a New Account"
+    android:textStyle="italic"
+    android:textSize="20dp"
+    android:textAlignment="center"
+    android:textColor="@color/black"
+    android:layout_marginTop="520dp"/>
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
